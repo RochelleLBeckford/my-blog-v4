@@ -1,0 +1,84 @@
+body {
+    /* ~ Coloes of my VS Code Theme -> Kawaii Gummy */
+    background-color: #393a55;
+    color: #ff9eb5;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-underline-offset: 3px;
+    background-color: #ff9eb5;
+    color: whitesmoke;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-underline-offset: 8px;
+}
+
+nav li {
+    list-style: none;
+}
+
+li {
+    list-style: circle;
+}
+
+a {
+    color: #ff9eb5;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-underline-offset: 8px;
+}
+
+footer {
+    /* ~ since my footer is fixed it will stay in one place and i have noticed that it overlaps the rest of my webpage when i move the page around*/
+    /* position: fixed; */
+    /* bottom: 0; */
+    width: 100%;
+    display: flex;
+    /* ~ this will add space above the footer */
+    margin-top: 20px;
+    padding: 20px;
+}
+
+footer li {
+    list-style: none;
+}
+
+/* ~ This will create a flex container or box to arrange the list items in rows or columns */
+.flex-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container li {
+    margin: 10px;
+    padding: 10px;
+}
+
+/* ~ Styling the figure elements */
+figure {
+    text-align: center;
+}
+
+/* ~ Styling for the different images in the figure sections */
+img {
+    width: 150px;
+    margin: 2px;
+}

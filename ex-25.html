@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <!-- & Title of the webpage -->
+        <title>Figures</title>
+        <!-- & Link to CSS Stylehseet -->
+        <link
+            rel="stylesheet"
+            href="style.css"
+        />
+    </head>
+    <body>
+        <main>
+            <h1>Webpage Figures and Captioning</h1>
+
+            <section>
+                <h2>Understanding how to use Figures</h2>
+                <p>
+                    There are semantic elements that are typically used for images or
+                    even code blocks:
+                </p>
+
+                <ul>
+                    <li>
+                        The &lt;figure&gt; elemment is used for graphics, images, or
+                        even a diagram.
+                    </li>
+                    <li>
+                        Usually the contents in this element are grouped together and
+                        can be placed in the webpag's &lt;main&gt; element or elsewhere
+                    </li>
+                    <li> For instance the code would look like this:
+                        <ul>
+                            <li>
+                                &lt;figure&gt;
+                                    Figure content goes header
+                                &lt;/figure&gt;
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Undetstanding Captioning Figures</h2>
+                <p>
+                    Captions or supportive text is another way to add meaning to the figures on the webpage - a description of the figure:
+                </p>
+
+                <ul>
+                    <li>
+                        The &lt;figcaption&gt; element is used to describe what is in the &lt;figure&gt; element
+                    </li>
+                    <li>
+                        For instance, it can be used to describe a single image:
+                    </li>
+                </ul>
+
+                <figure>
+                    <img
+                      width="500"
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/1024px-Tsunami_by_hokusai_19th_century.jpg"
+                      alt="Great Wave off Kanagawa by Hokusai"
+                    />
+                    <figcaption>
+                        The Figure caption: The Great Wave Off Kanagawa by Hokusai
+                    </figcaption>
+                </figure>
+
+                <p>
+                    The &lt;figcaption&gt; element can be used to describe multiple pieces of content within the &lt;figure&gt; element:
+                </p>
+                <figure>
+                    <img
+                      width="150"
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Brooklyn_Bridge_Manhattan.jpg/250px-Brooklyn_Bridge_Manhattan.jpg"
+                      alt="Brooklyn Bridge"
+                    />
+
+                    <img
+                      width="150"
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Prospect_Park_New_York_October_2015_003.jpg/1024px-Prospect_Park_New_York_October_2015_003.jpg"
+                      alt="Prosepct Park, Brooklyn, NY, USA"
+                    />
+
+                    <img
+                      width="150"
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Coney_Island_beach_and_amusement_parks_%28June_2016%29.jpg/1024px-Coney_Island_beach_and_amusement_parks_%28June_2016%29.jpg"
+                      alt="Coney Island, Brooklyn, NY, USA"
+                    />
+                    <figcaption>
+                        Notable Brooklyn spots (from left to right): Brooklyn Bridge; Prospect Park; Coney Island
+                    </figcaption>
+                </figure>
+            </section>
+        </main>
+    </body>
+</html>
